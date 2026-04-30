@@ -1,0 +1,29 @@
+{
+  "name": "pi-port-forward",
+  "version": "0.0.0",
+  "description": "A pi extension that adds an interactive SSH local port forwarding command.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "ssh",
+    "port-forward",
+    "tui"
+  ],
+  "license": "MIT",
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "dependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*"
+  }
+}
