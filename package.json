@@ -30,7 +30,7 @@
       "./index.ts"
     ]
   },
-  "dependencies": {
+  "peerDependencies": {
     "@mariozechner/pi-coding-agent": "*",
     "@mariozechner/pi-tui": "*"
   }
