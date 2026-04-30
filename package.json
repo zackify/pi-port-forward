@@ -2,6 +2,14 @@
   "name": "@zackify/pi-port-forward",
   "version": "0.0.0",
   "description": "A pi extension that adds an interactive SSH local port forwarding command.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zackify/pi-port-forward"
+  },
+  "homepage": "https://github.com/zackify/pi-port-forward#readme",
+  "bugs": {
+    "url": "https://github.com/zackify/pi-port-forward/issues"
+  },
   "type": "module",
   "keywords": [
     "pi-package",
