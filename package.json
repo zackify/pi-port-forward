@@ -23,12 +23,14 @@
   "files": [
     "index.ts",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "assets/pi-port-forward.png"
   ],
   "pi": {
     "extensions": [
       "./index.ts"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/zackify/pi-port-forward/master/assets/pi-port-forward.png"
   },
   "peerDependencies": {
     "@mariozechner/pi-coding-agent": "*",

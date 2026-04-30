@@ -1,5 +1,7 @@
 # pi-port-forward
 
+![pi-port-forward screenshot](assets/pi-port-forward.png)
+
 A reusable [pi](https://github.com/badlogic/pi) package that adds a `/port` slash command for SSH local port forwarding.
 
 It lists listening TCP ports on configured SSH remotes, shows the process name / PID when available, and lets you toggle forwards from inside pi.
