@@ -32,7 +32,7 @@ It lists listening TCP ports on configured SSH remotes, shows the process name /
 After this package is published:
 
 ```bash
-pi install npm:pi-port-forward
+pi install npm:@zackify/pi-port-forward
 ```
 
 Then reload pi:
@@ -200,5 +200,5 @@ This repository includes a GitHub Actions workflow that publishes to npm when a 
 ## Files
 
 - `index.ts` — extension source
-- `package.json` — pi package metadata, including the `pi-package` keyword
+- `package.json` — pi package metadata for `@zackify/pi-port-forward`, including the `pi-package` keyword
 - `.github/workflows/publish.yml` — npm publish workflow

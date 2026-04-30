@@ -1,5 +1,5 @@
 {
-  "name": "pi-port-forward",
+  "name": "@zackify/pi-port-forward",
   "version": "0.0.0",
   "description": "A pi extension that adds an interactive SSH local port forwarding command.",
   "type": "module",
